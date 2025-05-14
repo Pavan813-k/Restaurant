@@ -46,13 +46,6 @@ function decreaseQty(button) {
   }
 }
 function pavan() {
-  const taskList = document.getElementById('taskList');
-  const orders = taskList.getElementsByTagName('li');
-
-  if (orders.length > 0) {
-    document.getElementById("result").innerHTML = "ORDER CONFIRMED..! ON THE WAY TO YOUR TABLE..!";
-  } else {
-    alert("Please add at least one item before placing the order.");
-  }
+  alert("Order Confirmed..!On THe Way To Your Table..!");
 }
 
